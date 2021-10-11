@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,WACE,qBACF,CAEA,kBACE,kBACF,CAEA,mCACE,kBACF","file":"style.428d339f.css","sourceRoot":"..\\src","sourcesContent":[".form__btn {\n  align-self: flex-start;\n}\n\n.fieldset-in-form {\n  margin-bottom: 20px;\n}\n\n.block-with-input:not(:last-child) {\n  margin-bottom: 10px;\n}\n"]}
