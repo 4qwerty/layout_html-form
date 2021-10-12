@@ -13,21 +13,29 @@
   </head>
 
   <body>
-    <form>
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
+      onsubmit="onSubmit()"
+    >
       <fieldset class="fieldsetInForm">
         <legend>Personal information</legend>
         <div class="blockWithInput">
           <label for="surname">Surname:</label>
           <input
+            type="text"
             id="surname"
             name="surname"
+            autocomplete="off"
           >
         </div>
         <div class="blockWithInput">
           <label for="name"> Name:</label>
           <input
+            type="text"
             id="name"
             name="name"
+            autocomplete="off"
           >
         </div>
         <div class="blockWithInput">
@@ -91,10 +99,10 @@
           >
           <label for="catsChoice1">Yes</label>
           <input
-          type="radio"
-          id="catsChoice2"
-          name="loveCats"
-          value="no"
+            type="radio"
+            id="catsChoice2"
+            name="loveCats"
+            value="no"
           >
           <label for="catsChoice2">No</label>
         </div>
