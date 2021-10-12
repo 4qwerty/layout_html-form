@@ -3,8 +3,10 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
@@ -12,27 +14,23 @@
 
   <body>
     <form>
-      <fieldset class="fieldset-in-form">
+      <fieldset class="fieldsetInForm">
         <legend>Personal information</legend>
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="surname">Surname:</label>
           <input
-            type="text"
             id="surname"
-            name="Surname"
+            name="surname"
           >
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="name"> Name:</label>
           <input
-            type="text"
             id="name"
-            name="Name"
+            name="name"
           >
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="age">How old are You?</label>
           <input
             type="number"
@@ -43,17 +41,15 @@
             max="100"
           >
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="date">Full date of birth:</label>
           <input
             type="date"
             id="date"
-            name="Date"
+            name="date"
           >
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="agreement">I accept the term of the agreement</label>
           <input
             type="checkbox"
@@ -63,33 +59,29 @@
           >
         </div>
       </fieldset>
-      <fieldset class="fieldset-in-form">
+      <fieldset class="fieldsetInForm">
         <legend>Registration</legend>
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="email">E-mail:</label>
           <input
             type="email"
             id="email"
-            name="Email"
+            name="email"
             placeholder="email@example.com"
           >
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="password">Password:</label>
           <input
             type="password"
             id="password"
-            name="Password"
+            name="password"
           >
         </div>
-
       </fieldset>
-
-      <fieldset class="fieldset-in-form">
+      <fieldset class="fieldsetInForm">
         <legend>An interesting fact about you!</legend>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="email">Do you love cats?</label>
           <input
             type="radio"
@@ -98,17 +90,15 @@
             value="yes"
           >
           <label for="catsChoice1">Yes</label>
-
           <input
           type="radio"
           id="catsChoice2"
           name="loveCats"
           value="no"
-        >
+          >
           <label for="catsChoice2">No</label>
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="email">What is your favorite colors?</label>
           <input
             type="color"
@@ -116,71 +106,60 @@
             name="color"
           >
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="time">What time do you go to bed?</label>
           <input
             type="time"
             id="time"
-            name="Time"
+            name="time"
           >
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="brand-of-machine">What are your favorite brand of cars?</label>
           <select
             id="brand-of-machine"
-            name="Brand"
-            multiple
-          >
+            name="brand"
+            multiple>
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
           </select>
         </div>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="range">How do you rate our work?</label>
           <input
             type="range"
             id="range"
-            name="Range"
+            name="range"
             value="0"
           >
         </div>
-
       </fieldset>
-
-      <fieldset class="fieldset-in-form">
+      <fieldset class="fieldsetInForm">
         <legend>Additional info:</legend>
-
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="submit">Comments:</label>
           <textarea
             id="submit"
-            name="Submit"
+            name="submit"
          ></textarea>
         </div>
-        <div class="block-with-input">
+        <div class="blockWithInput">
           <label for="rec">Would you recommend us?</label>
-          <select id="rec" name="Recommend">
+          <select id="rec" name="recommend">
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
         </div>
-
       </fieldset>
-      <div class="block-with-input">
+      <div class="blockWithInput">
         <button
           type="submit"
           value="submit"
-          class="form__btn">
-            Submit
+        >Submit
         </button>
       </div>
-
     </form>
-
     <script type="text/javascript" src="./main.js"></script>
   </body>
 

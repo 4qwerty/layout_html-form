@@ -1,11 +1,7 @@
-.form__btn {
-  align-self: flex-start;
-}
-
-.fieldset-in-form {
+.fieldsetInForm {
   margin-bottom: 20px;
 }
 
-.block-with-input:not(:last-child) {
+.blockWithInput:not(:last-child) {
   margin-bottom: 10px;
 }
